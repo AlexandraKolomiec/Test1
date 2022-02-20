@@ -48,8 +48,8 @@ string[] CreateArrayWithSizeLessOrEqual3(string[] stringArray, int sizeNewArray)
 
 string[] stringArray = { "hello", "word", "2", ":-)"};
 PrintStringArray(stringArray);
-int sizeNewArray = SearchStringsWithSizeLessOrEqual3(stringArray); // переименовать
-string[] newStringArray = CreateArrayWithSizeLessOrEqual3(stringArray, sizeNewArray);
+int sortedNewArray = SearchStringsWithSizeLessOrEqual3(stringArray); 
+string[] newStringArray = CreateArrayWithSizeLessOrEqual3(stringArray, sortedNewArray);
 Console.Write(" => ");
 PrintStringArray(newStringArray);
 Console.WriteLine();
